@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oneilbogle.mypoliticianv2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/edtzipcode"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Zip Code"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/Submitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBorough"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Borough"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:text="Borough" />
+
+            <TextView
+                android:id="@+id/edtborough"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:hint="Borough"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBorough2"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="District"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:text="District" />
+
+            <TextView
+                android:id="@+id/eddistrict"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:hint="District"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBorough3"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Political"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:text="Political Party" />
+
+            <TextView
+                android:id="@+id/edtparty"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:hint="Political"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBorough4"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:text="Name" />
+
+            <TextView
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:hint="Name"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
