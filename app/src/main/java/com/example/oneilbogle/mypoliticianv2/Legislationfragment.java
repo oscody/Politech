@@ -1,20 +1,9 @@
-//package com.example.oneilbogle.mypoliticianv2;
-//
-//import android.os.Bundle;
-//import android.support.annotation.Nullable;
-//import android.support.v4.app.Fragment;
-//import android.view.LayoutInflater;
-//import android.view.View;
-//import android.view.ViewGroup;
-//import android.widget.TextView;
-//import android.widget.Toast;
-//
-//import org.json.JSONArray;
-//import org.json.JSONException;
-//import org.json.JSONObject;
-//
-//public class Legislationfragment extends Fragment {
-//
+package com.example.oneilbogle.mypoliticianv2;
+
+import android.support.v4.app.Fragment;
+
+public class Legislationfragment extends Fragment {
+
 //
 //    TextView tvLegis1, tvLegis2, tvLegis3;
 //
@@ -67,5 +56,5 @@
 //
 //        }
 //    }
-//
-//}
+
+}
